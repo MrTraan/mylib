@@ -1,0 +1,12 @@
+<h2>{{selectedGenre}}</h2>
+<div class="book-gallery">
+	<div *ngFor="let book of books" class="book-widget">
+		<div class="book-cover">
+			<img class="book-cover-image" src="{{book.coverUrl}}">
+		</div>
+		<div class="book-details">
+			<span class="book-details-title">{{book.title}}</span>
+			<span class="book-details-writer">{{book.writer}}</span>
+		</div>
+	</div>
+</div>

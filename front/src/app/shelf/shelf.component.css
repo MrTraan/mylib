@@ -1,0 +1,57 @@
+.shelf-wrapper {
+	text-align: center;
+}
+
+h1 {
+	font-weight: lighter;
+	font-size: 26px;
+	font-family: Arial;
+}
+
+.book-shelf {
+	background-image: url("images/book-shelf.jpg");
+	width: 1200px;
+	height: 900px;
+	margin: auto;
+	background-repeat:no-repeat;
+	background-size: contain;
+	position: relative;
+}
+
+.genre-selector {
+	display: inline-block;
+	border: 2px solid black;
+	position: absolute;
+	color: rgba(0, 0, 0, 0);
+	font-family: Arial;
+	font-size: 3em;
+}
+
+.genre-selector:hover {
+	color: white;
+	text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
+.genre-science-fiction {
+	width: 560px;
+    height: 130px;
+    top: 127px;
+    left: 310px;
+    line-height: 130px;
+}
+
+.genre-classic {
+	width: 260px;
+    height: 130px;
+    top: 135px;
+    left: 0;
+    line-height: 130px;
+}
+
+.genre-drama {
+	width: 280px;
+    height: 128px;
+    top: 130px;
+    line-height: 130px;
+    right: 0;
+}

@@ -1,0 +1,21 @@
+---
+version: '2'
+services:
+  mongodb:
+    ports:
+    - "27017:27017"
+    volumes:
+    - "./mongo_data:/data/db"
+    image: "mongo:latest"
+
+  backend:
+    build: ./backend
+    ports:
+    - "8080:8080"
+    links:
+    - mongodb
+    
+  front:
+     build: ./front
+     ports:
+     - "4200:4200"

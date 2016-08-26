@@ -1,0 +1,10 @@
+<div class="shelf-wrapper">
+	<h1>
+	  My library
+	</h1>
+	<div class="book-shelf">
+		<a *ngFor="let genre of bookGenres" href="/book-list/{{genre}}">
+			<span class="genre-selector genre-{{genre}}">{{genre}}</span>
+		</a>
+	</div>
+</div>

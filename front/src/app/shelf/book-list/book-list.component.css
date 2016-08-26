@@ -1,0 +1,41 @@
+* {
+	font-family: Arial;
+}
+
+h2 {
+	text-align: center;
+}
+
+.book-gallery {
+	text-align: center;
+}
+
+.book-widget {
+	width: 200px;
+	height: 200px;
+	display: inline-flex;
+	margin-right: 20px;
+	margin-bottom: 50px;
+}
+
+.book-widget .book-cover {
+	overflow: hidden;
+}
+
+.book-cover-image {
+   max-width: 100%;
+   height: auto;
+   vertical-align: middle;
+}
+
+.book-details {
+	display: inline-flex;
+	padding-left: 5px;
+	flex-direction: column;
+	text-align: left;
+	justify-content: flex-end;
+}
+
+.book-details-title {
+	margin-bottom: 5px;
+}
